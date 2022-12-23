@@ -1,0 +1,3 @@
+bucket = "terraform-statefille-yt"
+key = "dev/aws-project.tfstate"
+region = "us-east-1"

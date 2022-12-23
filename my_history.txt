@@ -1,0 +1,160 @@
+    1  cls
+    2  ssh prefered_name@server.nomicatech.com
+    3  ssh yves@server.nomicatech.com
+    4  ssh yves@server3.nomicatech.com
+    5  ssh s4adelaide@server3.anomicatech.com
+    6  sls
+    7  cd /
+    8  ls
+    9  cd etc
+   10  ls
+   11  cd ..
+   12  ll
+   13  git version
+   14  git upgrade
+   15  git update
+   16  pwd
+   17  git branch
+   18  git init
+   19  git status
+   20  git version
+   21  code vagrantfile
+   22  pwd
+   23  ls
+   24  ll
+   25  id
+   26  ls
+   27  cd ubuntu
+   28  ls
+   29  sudo i
+   30  sudo -i
+   31  man
+   32  help
+   33  time
+   34  ls -al
+   35  cd /
+   36  ls
+   37  cd etc
+   38  ls
+   39  cd ..
+   40  ls
+   41  uname -r
+   42  cat /etc/os-release
+   43  arch
+   44  uname
+   45  exit
+   46  ls
+   47  cd sabina/
+   48  ls
+   49  clear
+   50  ls
+   51  cd ~
+   52  ls
+   53  cd Desktop
+   54  cd /
+   55  ls
+   56  cd ~
+   57  cd ..
+   58  cd ..
+   59  cd ..
+   60  cd ..
+   61  cd
+   62  ls
+   63  exit
+   64  exit
+   65  ls
+   66  vagrant global-status
+   67  vagrant ssh d21
+   68  vagrant up d21
+   69  vagrant ssh d21
+   70  vagrant global-status
+   71  vagrant up 7cf
+   72  vagrant ssh 7cf
+   73  exit
+   74  exit
+   75  cd ~
+   76  ls
+   77  cd midleware-script/
+   78  code docker-install.sh
+   79  ls
+   80  git status
+   81  git add docker-install.sh 
+   82  git add docker-install.sh .
+   83  git status
+   84  git commit -m " docker installation"
+   85  push  https://github.com/yvesbernadin/midleware-script.git
+   86  git remote add origin https://github.com/yvesbernadin/docker-installation.git
+   87  git branch -M main
+   88  git push -u origin main
+   89  git status
+   90  git branch feature1
+   91  git branch
+   92  vagrant ssh
+   93  vagrant up
+   94  ls
+   95  exit
+   96  cd ~
+   97  ls
+   98  cd HAproxy/
+   99  ls
+  100  cd vagrant-haproxy/
+  101  ls
+  102  cat haproxy-setup.sh 
+  103  ls
+  104  cat Vagrantfile 
+  105  cd ..
+  106  exit
+  107  git clone https://github.com/nyaundid/EC2-AWS-AND-SHELL.git
+  108  ls
+  109  cd EC2-AWS-AND-SHELL/
+  110  ls
+  111  cd hw2-seis665-02-spring2019-nyaundid-master/
+  112  ls
+  113  cat myfile.conf 
+  114  cat namelist.conf 
+  115  cd hw2
+  116  cd hw2-seis665-02-spring2019-nyaundid/
+  117  ls
+  118  cd ~
+  119  ls
+  120  rm -rf EC2-AWS-AND-SHELL
+  121  ls
+  122  exit
+  123  exit
+  124  vagrant global-status
+  125  vagrant up 11b
+  126  vagrant halt 6a0 8bf 5fb 4db
+  127  vagrant global-status
+  128  vagrant halt 66e 509 11b 4db
+  129  vagrant global-status
+  130  vagrant halt 2df
+  131  exit
+  132  pwd
+  133  terraform -v
+  134  terraform init
+  135  terraform init -backend-config=./environments/dev/dev.tfbackend 
+  136  terraform plan
+  137  terraform init -backend-config=./environments/dev/dev.tfbackend 
+  138  terraform plan -var-file=./environments/dev/dev.tfvars
+  139  terraform init -backend-config=./environments/dev/dev.tfbackend 
+  140  ls
+  141  terraform plan -var-file=./environments/dev/dev.tfvars
+  142  terraform fmt
+  143  terraform graph
+  144  terraform plan -var-file=./environments/dev/dev.tfvars
+  145  terraform plan -var-file=./environments/dev/dev.tfvars
+  146  terraform plan -var-file=./environments/dev/dev.tfvars
+  147  terraform plan -var-file=./environments/dev/dev.tfvars
+  148  terraform plan -var-file=./environments/dev/dev.tfvars
+  149  terraform apply -var-file=./environments/dev/dev.tfvars
+  150  terraform apply -var-file=./environments/dev/dev.tfvars
+  151  terraform destroy -var-file=./environments/dev/dev.tfvars
+  152  terraform init -backend-config=./environments/dev/dev.tfbackend 
+  153  terraform init -backend-config=./environments/dev/dev.tfbackend -reconfigure
+  154  terraform plan -var-file=./environments/dev/dev.tfvars
+  155  terraform apply -var-file=./environments/dev/dev.tfvars
+  156  terraform state show
+  157  terraform state ls
+  158  terraform state list
+  159  terraform state show aws_s3_bucket.aws_project_2
+  160  history > my_history.txt
