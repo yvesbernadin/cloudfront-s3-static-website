@@ -9,7 +9,7 @@ pipeline {
                 git branch: 'main', credentialsId: 'Github', url: 'https://github.com/yvesbernadin/cloudfront-s3-static-website.git'
             }
         }
-        stage('terraform format check') {
+        stage('terraform format checkout') {
             steps{
                 sh 'terraform fmt'
             }
@@ -19,8 +19,11 @@ pipeline {
                 sh 'terraform init -backend-config=./environments/dev/dev.tfbackend'
             }
         }
-
-        stage('terraform plan') {
+        stage('terraform Validate') {
+            steps{
+                sh 'terraform validate'
+            }
+        stage('terraform Plan') {
             steps{
                 sh 'terraform plan -var-file=./environments/dev/dev.tfvars'
             }
